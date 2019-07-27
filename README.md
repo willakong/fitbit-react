@@ -13,3 +13,6 @@ As seen from the title screen, reaction time is determined by recording the dela
 ![alt text](https://github.com/willakong/fitbit-react/blob/master/screenshots/versa/results.png "Results screen")
 
 The results screen will display the reaction time. Tapping the screen again will allow another try at getting a better time.
+
+## Credits
+App icon is made by [Freepik](https://www.freepik.com/) from [www.flaticon.com](https://www.flaticon.com/)
