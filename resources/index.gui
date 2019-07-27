@@ -1,0 +1,26 @@
+<svg>
+  <svg id="title-screen">
+    <rect id="title-touch" class="full-size" fill="fb-black" pointer-events="visible" />
+    <use href="#mixed-text-center-mid" height="100%" fill="fb-red">
+      <set href="#header/text" attributeName="text-buffer" to="The Reaction Time Test"/>
+      <set href="#copy/text" attributeName="text-buffer"
+          to="Tap the screen and wait for it to turn green. When it does, tap the screen again and see your reaction time."/>
+    </use>
+  </svg>
+
+  <svg id="react-screen" display="none">
+    <rect id="react-touch" class="full-size" fill="fb-black" pointer-events="visible" />
+    <use id="react-text" href="#mixed-text-center-mid" height="100%" fill="fb-peach">
+      <set href="#header/text" attributeName="text-buffer" to="Wait..."/>
+      <set href="#copy/text" attributeName="text-buffer" to="~( ˘ v ˘ ~)"/>
+    </use>
+  </svg>
+
+  <svg id="results-screen" display="none">
+    <rect id="results-touch" class="full-size" fill="fb-black" pointer-events="visible" />
+    <use id="results-text" href="#mixed-text-center-mid" height="100%" fill="fb-green">
+      <set href="#header/text" attributeName="text-buffer" to="Your reaction time was ...................."/>
+      <set href="#copy/text" attributeName="text-buffer" to="Tap to try again!"/>
+    </use>
+  </svg>
+</svg>
