@@ -1,5 +1,5 @@
 # React
-A Fitbit wearable app for testing reaction time.
+A Fitbit wearable app for testing reaction time. This app is available in the [Fitbit gallery](https://gallery.fitbit.com/details/cb7d1825-1751-408f-adb0-e60217893e84).
 
 ## Using it
 ![alt text](https://github.com/willakong/fitbit-react/blob/master/screenshots/versa/main.png "Main title screen")
